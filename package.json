@@ -1,0 +1,13 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "This is a full-stack web application built using **MERN** (MongoDB, Express, React, Node.js), **Zustand** for state management, and **Tailwind CSS** for styling. The app integrates the **Google Places API** and **Google Maps JavaScript API** to provide users with the ability to:",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
